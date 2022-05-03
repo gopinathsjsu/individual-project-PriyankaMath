@@ -18,6 +18,6 @@ public class Report {
 
     @Override
     public String toString() {
-        return  bookingName + ',' + flightNumber + ',' + seatCategory + ','+ noOfBookedSeats + totalPrice + '\n';
+        return  bookingName + ',' + flightNumber + ',' + seatCategory + ','+ noOfBookedSeats + ',' + totalPrice + '\n';
     }
 }
