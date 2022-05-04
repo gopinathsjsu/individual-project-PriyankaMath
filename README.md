@@ -4,6 +4,7 @@
 
 1.	Clone the repository: https://github.com/gopinathsjsu/individual-project-PriyankaMath
 2.	Open the command line where the project directory is located (where pom.xml is found) and execute below steps
+
   ●	mvn compile
   
   ●	mvn clean install
