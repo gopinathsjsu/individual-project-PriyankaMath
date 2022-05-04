@@ -5,12 +5,19 @@
 1.	Clone the repository: https://github.com/gopinathsjsu/individual-project-PriyankaMath
 2.	Open the command line where the project directory is located (where pom.xml is found) and execute below steps
   ●	mvn compile
+  
   ●	mvn clean install
+  
   ●	Execute the below maven command to execute with arguments (Path to where the input file is located and path to where output file should be located) passed via           command line
+  
       ○	mvn exec:java -Dexec.mainClass=test.RunClient -Dexec.args="<arg1> <arg2 > <arg3> <arg4>"
+      
       ○	arg1 – path to the input data (Sample.csv)
+      
       ○	arg2 – path to flight details (flights.csv)
+      
       ○	arg3 – path to Output.csv
+      
       ○	arg4 – path to Output.txt
 
 ## Screenshots of execution steps:
